@@ -2,12 +2,139 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Avo {
+  width:100%;
+  height:585px;
+  object-fit: cover;
+}
+.Avo1 {
+  height:374px;
+}
+.FS{
+ 
+  position: absolute;
+  transition: 0.6s;
+}
+.FS:hover{
+  transform: scale(1.2);
+}
+ .kart{
+  width:100%;
+  height:100%;
+ }
+ .karniz{
+  position:absolute;
+  bottom:0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  width:100%;
+  box-sizing: border-box;
+  height:50px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+
+ }
+ .category{
+  height:200px;
+  width: 200px;
+  border-radius: 35px;
+  overflow: hidden;
+  position:relative;
+  transition: 0.5s;
+ }
+ .category:hover{
+  transform: scale(1.1);
+ }
+ .commentsection{
+  display:flex;
+  flex-direction:column;
+
+  height:400px;
+  background-color:#F7F7F7;
+  margin-top:100px;
+  padding-top:70px;
+  padding-left:150px;
+  padding-right:100px;
+ }
+.comment{
+  background-color: #FFFFFF;
+  display:flex;
+  flex-grow: 1;
+  flex-direction:column;
+  border-radius: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  gap:10px;
+  height:180px;
+  width: 300px;
+}
+.comtext{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: start;
+  padding-left: 10px;
+}
+.pics{
+  height: 50px;
+  width:50px;
+  overflow: hidden;
+  position:relative;
+  border-radius: 50px;
+}
+.imena{
+  display:flex;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #253238;
+}
+.podval{
+  display:flex;
+  position:relative;
+  height:400px;
+  background-color:#2AA020;
+  padding-left:150px;
+  padding-right:150px;
+  padding-top:50px;
+  gap:100px;
+}
+.FS1{
+  height:200px;
+  width:200px;
+  align-items: center;
+
+}
+.cifri{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+.vertic{
+  display:flex;
+  flex-direction:column;
+  position:relative;
+  gap:20px;
+
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
+
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
@@ -35,4 +162,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
